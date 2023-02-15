@@ -11,7 +11,6 @@
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 body {
@@ -47,6 +46,21 @@ body * {
     font-size: 32px;
     line-height: 32px;
     text-align: center;
+    letter-spacing: 2px;
+}
+
+#subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#subtitle2 {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2px;
 }
 
 .separator {
