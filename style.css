@@ -32,6 +32,9 @@ body * {
 
 #ibm-bin {
     text-align: center;
+}
+
+.bin {
     font-size: 0.875rem;
     font-family: 'JetBrains Mono', monospace;
 }
@@ -146,14 +149,46 @@ footer {
         font-size: 12px;
     }
     
-    #ibm-bin {
-        font-size: 0.5rem;
+    .bin {
+        font-size: 0.75rem;
+        display: block;
+    }
+
+    .r-sep {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    #subtitle2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 440px) {
+    .bin {
+        font-size: 0.75rem;
+        display: block;
+    }
+
+    .r-sep {
+        display: none;
     }
 }
 
 @media (max-width: 480px) {
     ul li a {
         font-size: 12px;
+    }
+
+    .bin {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 502px) {
+    .bin {
+        font-size: 0.75rem;
     }
 }
 
