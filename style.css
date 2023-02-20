@@ -30,6 +30,12 @@ body * {
     padding: 0 24px;
 }
 
+#ibm-bin {
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+
 #profile {
     text-align: center;
     padding: 24px;
@@ -128,6 +134,12 @@ footer {
 @media (min-width: 700px) {
     :root {
         --bg-url: url(./assets/bg-desktop-dark.jpg);
+    }
+}
+
+@media (max-width: 360px) {
+    #subtitle2 {
+        font-size: 12px;
     }
 }
 
