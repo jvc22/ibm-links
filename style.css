@@ -107,6 +107,29 @@ ul li a {
     transition: background .3s;
 }
 
+#external-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 16px 24px;
+    
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: background .3s;
+}
+
+#external-link:hover {
+    background: var(--surface-color-hover);
+    border: 1px solid var(--text-color);
+}
+
 ul li a:hover {
     background: var(--surface-color-hover);
     border: 1px solid var(--text-color);
