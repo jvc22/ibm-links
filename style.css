@@ -111,6 +111,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 0.75rem;
     padding: 16px 24px;
     
