@@ -47,6 +47,8 @@ body * {
 #profile img {
     width: 160px;
     border-radius: 50%;
+    pointer-events: none;
+    cursor: default;
 }
 
 #title {
