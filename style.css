@@ -164,6 +164,15 @@ footer {
     font-size: 0.75rem;
 }
 
+#jv-link {
+    color: #22c55e;
+    transition: .2s;
+}
+
+#jv-link:hover {
+    color: #8b5cf6;
+}
+
 @media (min-width: 700px) {
     :root {
         --bg-url: url(./assets/bg-desktop-dark.jpg);
