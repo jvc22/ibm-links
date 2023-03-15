@@ -169,6 +169,13 @@ tbody:before {
     text-indent:-99999px;
 }
 
+tbody:after {
+    content:"@";
+    display:block;
+    line-height:8px;
+    text-indent:-99999px;
+}
+
 th {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
