@@ -158,6 +158,29 @@ ul li a:hover {
     padding: 16px;
 }
 
+.former-students {
+    margin-top: 20px;
+}
+
+tbody:before {
+    content:"@";
+    display:block;
+    line-height:8px;
+    text-indent:-99999px;
+}
+
+th {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+td {
+    font-size: .875rem;
+    padding: 0 .25rem;
+    text-align: center;
+}
+
 footer {
     padding: 24px 0;
     text-align: center;
@@ -197,6 +220,15 @@ footer {
 @media (max-width: 375px) {
     #subtitle2 {
         font-size: 12px;
+    }
+
+    th {
+        font-size: 1rem;
+    }
+
+    td {
+        font-size: .75rem;
+        padding: 0;
     }
 }
 
