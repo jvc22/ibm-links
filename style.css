@@ -15,6 +15,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
+    background-color: #121214;
     height: 100%;
 }
 
