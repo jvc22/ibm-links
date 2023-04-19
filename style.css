@@ -196,6 +196,7 @@ footer {
 }
 
 #jv-link {
+    text-decoration: none;
     color: #22c55e;
     transition: .2s;
 }
